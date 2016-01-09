@@ -16,4 +16,5 @@ Quick hack/install method:
 - edit it to set the MACHINEID and NOTEBOOK parameters as you wish
 - then copy to the daily cron folder: cp geeknote_update.sh /etc/cron.daily
 - finaly: md ~/geeknote
+
 Then each day at around 4.40am the script should update Evernote using gnsync.
