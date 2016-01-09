@@ -9,8 +9,8 @@
 ## --- ntpq
 ## then uploads the file to Evernote in the named NOTEBOOK
 
-MACHINEID="7bc-rome"
-NOTEBOOK="Newport"
+MACHINEID="machine-name or hostname"
+NOTEBOOK="evernote notebook name"
 
 echo > ~/geeknote/"$MACHINEID"-status
 
