@@ -42,6 +42,10 @@ echo ntpq -pn >> ~/geeknote/"$MACHINEID"-status
 ntpq -pn >> ~/geeknote/"$MACHINEID"-status
 echo >> ~/geeknote/"$MACHINEID"-status
 
+echo public ip address >> ~/geeknote/"$MACHINEID"-status
+dig +short myip.opendns.com @resolver1.opendns.com >> ~/geeknote/"$MACHINEID"-status
+echo >> ~/geeknote/"$MACHINEID"-status
+
 echo geeknote_update.log file size >> ~/geeknote/"$MACHINEID"-status
 ls -l ~/geeknote_update.log >> ~/geeknote/"$MACHINEID"-status
 echo >> ~/geeknote/"$MACHINEID"-status
