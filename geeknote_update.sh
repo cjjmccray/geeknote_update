@@ -7,6 +7,8 @@
 ## --- uptime
 ## --- df
 ## --- ntpq
+## --- public ip address of local router
+## --- log file size
 ## then uploads the file to Evernote in the named NOTEBOOK
 
 MACHINEID="machine-name or hostname"
