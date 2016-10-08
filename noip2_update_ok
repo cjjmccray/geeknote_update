@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# do something on successful change of IP address
+# push something to a text file to be uploaded with the geeknote update
+
+echo Date/Time >> /root/noip2_update.log
+date >> /root/noip2_update.log
+# myip=`dig +short myip.opendns.com @resolver1.opendns.com`
+myip=$(dig +short myip.opendns.com @resolver1.opendns.com)
+echo Updated IP address to: $myip >> /root/noip2_update.log
